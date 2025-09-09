@@ -96,26 +96,50 @@ export default function HeroWithNavbar() {
             <h2 className="font-poppins font-bold text-[32px] md:text-[48px] lg:text-[66px] mt-2">
               {title}
             </h2>
-            <p className="font-poppins font-medium text-[18px] lg:text-[22px] leading-[160%] mt-6 w-[850px] whitespace-normal">
-              Embark on a culinary journey of delight as you immerse yourself in
-              our artisan-crafted ice cream collection—each flavor a story, each
-              scoop an unforgettable chapter in your sweet odyssey!
-            </p>
-            <p className="font-poppins font-medium text-[18px] lg:text-[22px] leading-[160%] mt-4 w-[670px] whitespace-normal">
-              Indulge in a world of imagination, where every scoop unveils a new
-              taste adventure! Choose your favorite.
-            </p>
+            <p
+  className="
+    font-poppins font-medium
+    text-[18px] lg:text-[22px]
+    leading-[160%]
+    mt-6
+    w-full lg:w-[850px]
+    whitespace-normal
+    text-left
+  "
+>
+  Embark on a culinary journey of delight as you immerse yourself in
+  our artisan-crafted ice cream collection—each flavor a story, each
+  scoop an unforgettable chapter in your sweet odyssey!
+</p>
+
+<p
+  className="
+    font-poppins font-medium
+    text-[18px] lg:text-[22px]
+    leading-[160%]
+    mt-4
+    w-full lg:w-[670px]
+    whitespace-normal
+    text-left
+  "
+>
+  Indulge in a world of imagination, where every scoop unveils a new
+  taste adventure! Choose your favorite.
+</p>
+
           </div>
 
-          {/* Right big cone image */}
-          <div className="absolute bottom-0 right-[-450px] flex justify-end items-end">
-            <img
-              key={active}
-              src={image}
-              alt={title}
-              className="w-[320px] md:w-[450px] lg:w-[670px] object-contain transition-all duration-500"
-            />
-          </div>
+       {/* Right big cone image */}
+<div className="flex justify-center lg:justify-end items-end mt-10 lg:mt-0 relative lg:absolute lg:bottom-0 lg:right-[-450px]">
+  <img
+    key={active}
+    src={image}
+    alt={title}
+    className="w-[250px] md:w-[400px] lg:w-[670px] object-contain transition-all duration-500"
+  />
+</div>
+
+
         </div>
 
         {/* Small cone selector */}
