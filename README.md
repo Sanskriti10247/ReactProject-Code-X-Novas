@@ -132,11 +132,6 @@ pnpm run dev
 👉 Visit http://localhost:5173/ in your browser.
 
 
-Reference:
-
-<img width="1140" height="304" alt="Screenshot 2025-09-09 at 8 45 37 PM" src="https://github.com/user-attachments/assets/e62fdd7e-c0a1-4e5f-9514-17008d81cc25" />
-
-
 #### ⚡ Features
 
 1.  Flavor Switching → Clicking small cone icons changes the big cone and gradient background.
