@@ -150,13 +150,7 @@ Reference:
 ### VIDEO REFERENCE
 
 
-<<<<<<< HEAD
-=======
-
 https://github.com/user-attachments/assets/e92adb21-6aac-47f5-af42-708a5230d2d8
-
-
->>>>>>> e12c03f4cbea498b6aa24418f6f170d575b46cd3
 
 
 ## 🌐 Deployment
