@@ -120,7 +120,6 @@ Reference:
 ### VIDEO REFERENCE
 
 
-https://github.com/user-attachments/assets/ed53855c-b4ea-45f7-bb9e-a218630c3028
 
 
 ## 🌐 Deployment
