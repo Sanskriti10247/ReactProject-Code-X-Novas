@@ -119,7 +119,7 @@ export default function HeroWithNavbar() {
     leading-[160%]
     mt-4
     w-full lg:w-[670px]
-    whitespace-normal
+    whitespace-medium
     text-left
   "
 >
